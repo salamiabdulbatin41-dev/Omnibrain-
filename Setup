@@ -1,0 +1,5 @@
+npx create-expo-app omniapp --template blank-typescript
+cd omniapp
+npx expo install expo-router expo-sqlite expo-secure-store expo-crypto
+npx expo install react-native-safe-area-context react-native-screens
+npm i zustand @react-native-async-storage/async-storage
