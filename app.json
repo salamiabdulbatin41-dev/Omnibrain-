@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "OmniApp",
+    "slug": "omniapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "omniapp",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0a0a0a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.omniapp.app"
+    },
+    "android": {
+      "package": "com.omniapp.app"
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
